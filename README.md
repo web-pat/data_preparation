@@ -1,4 +1,7 @@
-### remove_duplicate_rows.py
+# Purpose
+A collection of very simple scripts to handle text-based datasets, probably scraped data in .csv or .json formats.
+
+## remove_duplicate_rows.py
 Simple script to remove duplicate rows in a dataset, ideally in .csv-Format.
 
 1. opening a file in the read mode. This is the file that has the duplicates.
@@ -6,5 +9,5 @@ Simple script to remove duplicate rows in a dataset, ideally in .csv-Format.
 3. If it has been encountered than we don't write it to the output file.
 4. If not we will write it to the output file and add it to the list of records that have been encountered already
 
-### fileCat.py
+## fileCat.py
 Merges together files you specify.
